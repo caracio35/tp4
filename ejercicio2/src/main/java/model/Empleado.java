@@ -15,7 +15,6 @@ public class Empleado {
         this.fechaNac = fechaNac;
     }
 
-
     public boolean EsTuCumple(MonthDay mesDia) {
         return this.fechaNac.equals(mesDia);
     }

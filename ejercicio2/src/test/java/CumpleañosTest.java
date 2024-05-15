@@ -15,7 +15,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CumpleañosTest {
 
-
     @Test
     public void test() {
         var empleados = new Empleados() {
@@ -25,8 +24,7 @@ public class CumpleañosTest {
                 return List.of(
                         new Empleado("jose", "nocito", "nocito@gmail.com", MonthDay.of(2, 8)),
                         new Empleado("clara", "nocito", "cNocito@gmail.com", MonthDay.of(1, 25)),
-                        new Empleado("paula", "calvo", "pCalvo@gmail.com", MonthDay.of(5, 20))
-                );
+                        new Empleado("paula", "calvo", "pCalvo@gmail.com", MonthDay.of(5, 20)));
             }
         };
         var email = new NotificarPorEmail() {
