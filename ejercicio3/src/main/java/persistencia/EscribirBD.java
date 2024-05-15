@@ -1,4 +1,4 @@
-package baseDatos;
+package persistencia;
 
 public class EscribirBD {
 }
